@@ -1,0 +1,23 @@
+.post {
+    background-color: rgb(250, 223, 227);
+    color: grey;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    border:none;
+
+    &:hover {
+        background-color: rgb(189, 109, 122);
+        color:white;
+        cursor: pointer;
+        transition: 0.1s;
+    }
+    
+    &:focus {
+        outline: none;
+    }
+}

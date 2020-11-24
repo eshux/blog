@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0;
+
+}
+
+.nav__item {
+    padding: 0 20px 0 0;
+    text-decoration: none;
+    color: rgb(189, 109, 122);
+    transition: 0.2s;
+    font-weight: 700;
+
+    &:hover {
+        color: grey;
+    }
+    
+}
