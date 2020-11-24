@@ -30,6 +30,9 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route exact path="/blog/">
+            <Home />
+          </Route>
           <Route exact path="/about">
             <About />
           </Route>
